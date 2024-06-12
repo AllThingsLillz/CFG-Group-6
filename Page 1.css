@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: pink !important; /* Pink background color */
+  color: #333;
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-family: Cursive;
+}
+
+/* Style for the tabs */
+.tabs {
+  text-align: right; /* move tabs to the right */
+  margin: 20px 0;
+}
+
+/* Style for the contact and socials buttons */
+.tabs button {
+  color: black; /* Change text color */
+  border: solid black; /* Add border */
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.tabs button:hover {
+  background-color: lightgreen; /* Change background color on hover */
+}
+
+/* Style for the clothing style buttons */
+.clothingstyle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.clothingstyle button {
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.clothingstyle button:hover {
+  background-color: #218838;
+}
+
+/* Style for the colour buttons */
+.colours {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.colours button {
+  border: 2px solid black; /* black outline */
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.colours button:hover {
+  background-color: #5a6268;
+  color: white; /* Change text color on hover */
+}
+
+/* Black button */
+#black {
+  background-color: gray;
+}
+
+/* White button */
+#white {
+  background-color: white;
+  color: black; /* Set text color to black for better readability */
+}
+
+/* Pink button */
+#pink {
+  background-color: deeppink;
+}
+
+/* Blue button */
+#blue {
+  background-color: cornflowerblue;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.outer-container {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-container img {
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
